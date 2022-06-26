@@ -3,6 +3,10 @@ Low-light-Image enhancement based on paper ZERO-DCE.
 
 Dataset used for training and testing : [LOL-Dataset](https://drive.google.com/file/d/157bjO1_cFuSd0HWDUuAmcHRJDVyWpOxB/view)
 
+Make sure your folder looks like this:
+
+![Alt text](Img/Screenshot_2022-06-26_21-34-48.png?raw=true "Title")
+
 ### For Training and Testing follow the given procedure:
 ---------------
 
