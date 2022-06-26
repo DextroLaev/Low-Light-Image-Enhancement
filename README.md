@@ -18,7 +18,7 @@ Make sure your folder looks like this:
    
     $ python keras_api_train.py
    
-   There are 2 training files, ```Tensorflow_api_train.py``` file is only for prototyping purpose (NOT FOR USE PRACTICALLY) 
+   There are 2 training files, ```Tensorflow_api_train.py``` file is only for prototyping purpose (NOT FOR PRACTICAL USE) 
    
    Testing the model on the given dataset
    
