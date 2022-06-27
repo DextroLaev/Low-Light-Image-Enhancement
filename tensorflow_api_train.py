@@ -33,15 +33,6 @@ class ZERO_DCE:
 		total_loss = illumination_loss + spatial_loss + exp_loss + color_loss
 		return total_loss
 
-	def train(self,data,epochs=10):
-		while epochs:
-			output = self.forward(data)
-			l_val = self.compute_loss(data,output)
-			loss_val = lambda : self.compute_loss(data,self.forward(data))
-			self.optimizer.minimize(loss_val,var_list=[self.dce_model.trainable_weights])
-			tf.print(l_val)
-			epochs -= 1	
-
 	@tf.function
 	def train(self,dataset,epochs=10):
 		for e in range(epochs):
